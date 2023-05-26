@@ -33,7 +33,7 @@ a:active {
 
 html .text-color-primary,
 html .text-primary {
-	color: #FEA45A !important;
+	color: #0077b6 !important;
 }
 
 html .text-color-hover-primary:hover,
@@ -7404,8 +7404,8 @@ ul.comments .comment-block,
 }
 
 .custom-square-1 rect {
-	stroke: #FEA45A;
-	fill: #FEA45A;
+	stroke: #0077b6;
+	fill: #0077b6;
 }
 
 .custom-featured-boxes-style-1 .featured-box:hover .box-content {
@@ -7417,7 +7417,7 @@ ul.comments .comment-block,
 }
 
 .custom-thumb-info-style-1 .thumb-info-wrapper:after {
-	background: #FEA45A;
+	background: #0077b6;
 }
 
 .custom-testimonial-colored-quotes.testimonial-with-quotes blockquote:before,
