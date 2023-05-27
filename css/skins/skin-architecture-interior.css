@@ -16,11 +16,11 @@
 }
 
 a {
-	color: #FEA45A;
+	color: #fff;
 }
 
 a:hover {
-	color: #feb273;
+	color: #0077b6;
 }
 
 a:focus {
@@ -1579,6 +1579,7 @@ html .btn-dark {
 	--hover: #32383e;
 	--disabled: #212529;
 	--active: #101214;
+  width: 10rem;
 }
 
 html .btn-dark:hover,
@@ -7445,7 +7446,7 @@ ul.comments .comment-block,
 	}
 
 	to {
-		border-color: #FEA45A;
+		border-color: #0077b6;
 	}
 }
 
