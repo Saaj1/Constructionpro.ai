@@ -5,7 +5,7 @@
 
 ::selection {
 	color: #777;
-	background: #FEA45A;
+	background: #4ea8d9;
 }
 
 :root {
@@ -1579,7 +1579,22 @@ html .btn-dark {
 	--hover: #32383e;
 	--disabled: #212529;
 	--active: #101214;
+}
+
+html .btn-dark-msg {
+  background-color: #212529;
+	border-color: #212529 #212529 #0a0c0d;
+	color: #FFF;
+	--color: #212529;
+	--hover: #32383e;
+	--disabled: #212529;
+	--active: #101214;
   width: 10rem;
+}
+
+html .btn-dark-msg:hover {
+  background-color: #0077b6;
+  color: #FFF;
 }
 
 html .btn-dark:hover,
