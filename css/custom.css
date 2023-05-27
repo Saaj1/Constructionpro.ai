@@ -3,6 +3,11 @@
   justify-content: space-evenly;
 }
 
-img {
-  opacity:1 ;
+#ourservices {
+  background-color: whitesmoke !important;
+}
+
+.hover-message {
+  background-color: whitesmoke;
+  text-align: center;
 }

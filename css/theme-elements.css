@@ -11574,7 +11574,7 @@ html body .rounded-circle {
 }
 
 .sticky-wrapper.sticky-wrapper-effect-1.sticky-wrapper-effect-1-dark.sticky-effect-active .sticky-body {
-	background: #212529;
+	background: #4D5154 ;
 }
 
 .sticky-wrapper.sticky-wrapper-border-bottom.sticky-effect-active .sticky-body {
@@ -11780,7 +11780,7 @@ body.page-transition-active {
 	opacity: 0 !important;
 }
 
-/* 
+/*
 Image 360º Viewer
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */
@@ -13650,7 +13650,7 @@ html.lightbox-opened .scroll-to-top {
 
 /* Section Featured */
 section.section {
-	background: #f7f7f7;
+	background: #fff;
 	border-top: 5px solid #f1f1f1;
 	margin: 30px 0;
 	padding: 50px 0;
