@@ -464,7 +464,7 @@
 								<div class="card custom-card-style-1 h-100">
 									<div class="card-body pt-5">
 
-										<form  class="contact-form form-style-4 form-errors-light" action="php/contact-form.php" method="POST">
+										<form  class="contact-form form-style-4 form-errors-light" onsubmit="sendEmail(); reset(); return false">
 											<input type="hidden" value="Contact Form" name="subject" id="subject">
 											<div class="form-group col-lg-12 ms-auto my-0">
 												<div class="contact-form-success alert alert-success d-none">
@@ -553,6 +553,26 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host : "smtp.gmail.com",
+          Username : "mathensaajida@gmail.com",
+          Password : "Izzy1drogo1",
+          To : 'mathensaajida@gmail.com',
+          From : document.getElementById("email").value,
+          Subject : "This is the subject",
+          Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+       }
+
+    </script>
 
 	</body>
 </html>
